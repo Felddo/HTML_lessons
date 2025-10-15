@@ -1,0 +1,31 @@
+.menu {
+     margin: 0 auto;
+     width: 70%;
+     background: lightgreen;
+}
+
+.block {
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px 30px;
+    
+}
+
+.lang {
+    display: inline-block;
+    background: green;
+    color: white;
+    margin: 10px;
+    border: solid 3px green;
+  
+
+}
+
+.text {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    margin: 4px;
+}
