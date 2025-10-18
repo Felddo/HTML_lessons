@@ -1,0 +1,54 @@
+h3 {
+    text-align: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p a {
+    text-decoration: none;
+    text-align: center;
+    width: 35%;
+    background: gray;
+    margin: 2px;
+    color: black;
+}
+p a:first-of-type {
+    background: greenyellow;
+}
+
+.content {
+    display: grid;
+    margin: auto;
+    margin-top: -15px;
+    width: 90%; 
+    grid-template-columns: repeat(4, 1fr);
+    border: 6px solid greenyellow;
+
+}
+.topic {
+    padding: 10px;
+    background: white;
+    border: 6px solid greenyellow; 
+}
+.topic:nth-child(1) b {
+    background: greenyellow;
+}
+.topic:nth-child(1) a {
+    background: greenyellow;
+}
+.topic b {
+    display: block;
+    width: 40%;
+}
+
+@media (max-width: 700px) {
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    p a {
+        width: 45%;
+    }
+}
